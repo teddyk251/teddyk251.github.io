@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "misc.html",
+    "href": "misc.html",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "This page is for things that don’t quite fit into “formal research” but are still part of what I care about and what I’m experimenting with.\n\n\n\nRight now, I’m:\n\nWrapping up projects on mutual intelligibility benchmarks and visual reasoning.\nCleaning up codebases so they are easier to reproduce and open-source.\nSlowly rebuilding my personal website and trying to write more consistently.\n\n\n\n\n\nA non-exhaustive list of things I like thinking about or doing when I’m not debugging training loops:\n\nFitness & health – trying to get leaner and keep a sustainable routine around home workouts and cardio.\nDay trading & markets – learning how markets work, experimenting with small positions, and figuring out how to not be stupid with money.\nTooling & workflows – shells, dotfiles, terminals, and anything that makes working on code less painful.\n\n\n\n\n\nOccasionally I run small side experiments that may or may not go anywhere:\n\nPlaying with agentic systems that combine tools, memory, and “mood” for more persistent AI characters.\nBuilding personal finance / expense tracking tools (e.g., parsing mobile money SMS for automatic budgeting).\nSketching ideas for Amharic-first LLMs, starting from data collection and evaluation strategies.\n\nIf any of these resonate with you, feel free to reach out — I’m always open to collaborating on interesting side projects."
+  },
+  {
+    "objectID": "misc.html#now",
+    "href": "misc.html#now",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "Right now, I’m:\n\nWrapping up projects on mutual intelligibility benchmarks and visual reasoning.\nCleaning up codebases so they are easier to reproduce and open-source.\nSlowly rebuilding my personal website and trying to write more consistently."
+  },
+  {
+    "objectID": "misc.html#non-ml-interests",
+    "href": "misc.html#non-ml-interests",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "A non-exhaustive list of things I like thinking about or doing when I’m not debugging training loops:\n\nFitness & health – trying to get leaner and keep a sustainable routine around home workouts and cardio.\nDay trading & markets – learning how markets work, experimenting with small positions, and figuring out how to not be stupid with money.\nTooling & workflows – shells, dotfiles, terminals, and anything that makes working on code less painful."
+  },
+  {
+    "objectID": "misc.html#small-experiments",
+    "href": "misc.html#small-experiments",
+    "title": "Miscellaneous",
+    "section": "",
+    "text": "Occasionally I run small side experiments that may or may not go anywhere:\n\nPlaying with agentic systems that combine tools, memory, and “mood” for more persistent AI characters.\nBuilding personal finance / expense tracking tools (e.g., parsing mobile money SMS for automatic budgeting).\nSketching ideas for Amharic-first LLMs, starting from data collection and evaluation strategies.\n\nIf any of these resonate with you, feel free to reach out — I’m always open to collaborating on interesting side projects."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Tewodros Idris",
+    "section": "",
+    "text": "GitHub · LinkedIn · Google Scholar · Email\nI’m a machine learning engineer and researcher working on NLP and multimodal systems, with a particular focus on low-resource languages, mutual intelligibility in language models, and vision–language reasoning.\nRight now, I’m a Research Associate at CMU-Africa, where I spend most of my time thinking about: - How language models generalize across related languages - How to make models reason better using images, diagrams, and structured HTML - How to build practical systems (RAG, ASR, agentic pipelines) that actually get used\nPreviously, I worked as a Protocol Engineer at NuNet, building distributed systems and GPU job orchestration on decentralized infrastructure."
+  },
+  {
+    "objectID": "index.html#research",
+    "href": "index.html#research",
+    "title": "Tewodros Idris",
+    "section": "Research",
+    "text": "Research\n\nMutual intelligibility in language models\nI’m working on using embedding-space structure to study how models handle languages they were never trained on. Roughly:\n\nUse multilingual encoders and FLORES+/other benchmarks\n\nCompare distances and similarities between languages in embedding space\n\nStudy how this correlates with typological distance and zero-shot performance\n\nThe long-term goal is to better understand which parts of a corpus actually matter for cross-lingual transfer, especially for low-resource African languages.\n\n\nSelf-Imagine: visual and HTML-based reasoning\nIn another line of work, I’m exploring how models can “self-generate” diagrams, images, or HTML layouts to help them reason better on math and symbolic tasks.\nThis involves:\n\nGenerating images/HTML for datasets like GSM8K, SVAMP, ASDiv\n\nEvaluating answer self-consistency and image/HTML quality\n\nAnalyzing which visual/structural representations help models the most"
+  },
+  {
+    "objectID": "index.html#selected-projects-competitions",
+    "href": "index.html#selected-projects-competitions",
+    "title": "Tewodros Idris",
+    "section": "Selected projects & competitions",
+    "text": "Selected projects & competitions\n\nSpecializing LLMs for Telecom Networks (Zindi)\nBuilt a retrieval-augmented QA system for telecom multiple-choice questions using ColBERT-style dense retrieval and domain documents. This work led to a Zindi competition win and an accompanying arXiv paper:\nZindi telecom RAG paper\nLow-resource ASR and speech tech\nWorked on Amharic and Swahili ASR in collaboration with WAVLab at CMU Pittsburgh, extending toolkits and exploring data collection strategies when labeled data is scarce.\nGenerative AI: controllable music generation\nCourse project using MusicGen + textual inversion to learn token embeddings corresponding to musical “styles” and compose them at inference time for more controllable music generation.\nCrisis & clinical ML challenges\nParticipated in multiple Zindi/Kaggle challenges around crisis response, healthcare decision support, time-series forecasting, and geospatial ML."
+  },
+  {
+    "objectID": "index.html#publications-preprints",
+    "href": "index.html#publications-preprints",
+    "title": "Tewodros Idris",
+    "section": "Publications & preprints",
+    "text": "Publications & preprints\n(This list is a placeholder — feel free to replace with your exact BibTeX/links later.)\n\nZindi telecom RAG paper\nT. Idris, et al.\nPreprint, 2024\nA retrieval-augmented QA system using ColBERT-style dense retrieval to specialize LLMs for telecom multiple-choice questions.\narXiv\n\n\nOther work\nWork in progress on: - Mutual intelligibility benchmarks for LLMs - Visual/HTML-based reasoning pipelines (“Self-Imagine”)"
+  },
+  {
+    "objectID": "index.html#teaching-community",
+    "href": "index.html#teaching-community",
+    "title": "Tewodros Idris",
+    "section": "Teaching & community",
+    "text": "Teaching & community\n\nTA / mentor for students learning deep learning, NLP, and ML engineering\nActive participant in online ML competitions and open-source ecosystems\nInterested in building resources for African students and researchers who want to get into AI, especially for low-resource languages"
+  },
+  {
+    "objectID": "index.html#contact",
+    "href": "index.html#contact",
+    "title": "Tewodros Idris",
+    "section": "Contact",
+    "text": "Contact\nThe best way to reach me is by email or GitHub:\n\nEmail: youremail@example.com\n\nGitHub: teddyk251\n\nIf you’re working on NLP for low-resource languages, speech, or multimodal reasoning, I’m always happy to chat."
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Blog\nWelcome to my blog. Here you’ll find notes on research, engineering, and occasional life updates.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\nnews\n\ncode\n\nanalysis\n\n\n\n\n\n\n\n\n\nNov 18, 2025\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nRebooting the site\n\n\n\nmeta\n\nresearch\n\nlife\n\n\n\nMoving from academicpages/Jekyll to a simpler Quarto setup, and what I plan to write about here.\n\n\n\n\n\nNov 18, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nWelcome To My Blog\n\n\n\nnews\n\n\n\n\n\n\n\n\n\nNov 15, 2025\n\n\nTristan O’Malley\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "posts/2025-11-18-rebooting-the-site.html",
+    "href": "posts/2025-11-18-rebooting-the-site.html",
+    "title": "Rebooting the site",
+    "section": "",
+    "text": "I’ve finally moved my personal website from academicpages (Jekyll) to Quarto.\nThe goal is to keep things as simple as possible:\nI wanted a setup that is:"
+  },
+  {
+    "objectID": "posts/2025-11-18-rebooting-the-site.html#what-ill-write-about",
+    "href": "posts/2025-11-18-rebooting-the-site.html#what-ill-write-about",
+    "title": "Rebooting the site",
+    "section": "What I’ll write about",
+    "text": "What I’ll write about\nI expect posts here to be a mix of:\n\nResearch notes\n\nmutual intelligibility in language models\n\nlow-resource languages (especially African languages)\n\nvision–language reasoning, HTML diagrams, and self-consistency\n\nEngineering / tooling\n\ntraining and evaluating models on HPC clusters\n\nRAG and agentic systems for real problems (not just toy demos)\n\ndebugging, logging, and experiment tracking workflows\n\nLife / process\n\nnavigating grad school and research from Africa\n\ncompetitions (Zindi, Kaggle) and what I learned from them\n\nfitness, money, and trying to build a sustainable routine around all of this\n\n\nI don’t plan to make every post polished or “paper-like”. Some will just be structured notes or partial experiments that I want to document publicly."
+  },
+  {
+    "objectID": "posts/2025-11-18-rebooting-the-site.html#if-youre-reading-this",
+    "href": "posts/2025-11-18-rebooting-the-site.html#if-youre-reading-this",
+    "title": "Rebooting the site",
+    "section": "If you’re reading this",
+    "text": "If you’re reading this\nThe site is still very much a work in progress — layout, styling, and content will all evolve.\nFor now, I mainly wanted the basics working:\n\nindex.qmd as an About page\n\nthis blog post to confirm Quarto is wired correctly\n\na misc page for everything that doesn’t fit anywhere else\n\nIf you spot something broken or want to discuss anything I write here, feel free to open an issue on GitHub or reach out directly."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this blog"
+  }
+]
