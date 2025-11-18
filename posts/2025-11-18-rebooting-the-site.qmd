@@ -1,0 +1,62 @@
+---
+title: "Rebooting the site"
+description: "Moving from academicpages/Jekyll to a simpler Quarto setup, and what I plan to write about here."
+date: 2025-11-18
+categories: [meta, research, life]
+---
+
+I’ve finally moved my personal website from **academicpages (Jekyll)** to **Quarto**.
+
+The goal is to keep things as simple as possible:
+
+- Everything is just Markdown / Quarto (`.qmd`) files.
+- The site lives in a single GitHub repo: `teddyk251.github.io`.
+- GitHub Pages / `gh-pages` serves the compiled HTML.
+- No heavy JS framework or complicated theme logic.
+
+I wanted a setup that is:
+
+1. Easy to maintain long-term  
+2. Friendly to writing and version control  
+3. Flexible enough to host:
+   - an **About** page,
+   - a **blog**,
+   - some **misc / /now** style content,
+   - and a **CV**.
+
+---
+
+## What I’ll write about
+
+I expect posts here to be a mix of:
+
+- **Research notes**  
+  - mutual intelligibility in language models  
+  - low-resource languages (especially African languages)  
+  - vision–language reasoning, HTML diagrams, and self-consistency
+
+- **Engineering / tooling**  
+  - training and evaluating models on HPC clusters  
+  - RAG and agentic systems for real problems (not just toy demos)  
+  - debugging, logging, and experiment tracking workflows
+
+- **Life / process**  
+  - navigating grad school and research from Africa  
+  - competitions (Zindi, Kaggle) and what I learned from them  
+  - fitness, money, and trying to build a sustainable routine around all of this
+
+I don’t plan to make every post polished or “paper-like”. Some will just be structured notes or partial experiments that I want to document publicly.
+
+---
+
+## If you’re reading this
+
+The site is still very much a work in progress — layout, styling, and content will all evolve.
+
+For now, I mainly wanted the basics working:
+
+- `index.qmd` as an About page  
+- this blog post to confirm Quarto is wired correctly  
+- a `misc` page for everything that doesn’t fit anywhere else  
+
+If you spot something broken or want to discuss anything I write here, feel free to open an issue on GitHub or reach out directly.

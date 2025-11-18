@@ -1,0 +1,39 @@
+---
+title: "Miscellaneous"
+---
+
+# Miscellaneous
+
+This page is for things that don’t quite fit into “formal research” but are still part of what I care about and what I’m experimenting with.
+
+---
+
+## /now
+
+Right now, I’m:
+
+- Wrapping up projects on **mutual intelligibility benchmarks** and **visual reasoning**.
+- Cleaning up codebases so they are easier to reproduce and open-source.
+- Slowly rebuilding my personal website and trying to write more consistently.
+
+---
+
+## Non-ML interests
+
+A non-exhaustive list of things I like thinking about or doing when I’m not debugging training loops:
+
+- **Fitness & health** – trying to get leaner and keep a sustainable routine around home workouts and cardio.
+- **Day trading & markets** – learning how markets work, experimenting with small positions, and figuring out how to not be stupid with money.
+- **Tooling & workflows** – shells, dotfiles, terminals, and anything that makes working on code less painful.
+
+---
+
+## Small experiments
+
+Occasionally I run small side experiments that may or may not go anywhere:
+
+- Playing with **agentic systems** that combine tools, memory, and “mood” for more persistent AI characters.
+- Building **personal finance / expense tracking tools** (e.g., parsing mobile money SMS for automatic budgeting).
+- Sketching ideas for **Amharic-first LLMs**, starting from data collection and evaluation strategies.
+
+If any of these resonate with you, feel free to reach out — I’m always open to collaborating on interesting side projects.

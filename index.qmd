@@ -1,0 +1,96 @@
+---
+title: "Tewodros Idris"
+---
+
+<!-- # Tewodros Idris -->
+
+[GitHub](https://github.com/teddyk251) ·
+[LinkedIn](https://www.linkedin.com/in/) ·
+[Google Scholar](https://scholar.google.com/) ·
+[Email](mailto:youremail@example.com)
+
+I’m a machine learning engineer and researcher working on NLP and multimodal systems, with a particular focus on **low-resource languages**, **mutual intelligibility in language models**, and **vision–language reasoning**.
+
+Right now, I’m a Research Associate at **CMU-Africa**, where I spend most of my time thinking about:
+- How language models generalize across related languages
+- How to make models reason better using images, diagrams, and structured HTML
+- How to build practical systems (RAG, ASR, agentic pipelines) that actually get used
+
+Previously, I worked as a **Protocol Engineer** at NuNet, building distributed systems and GPU job orchestration on decentralized infrastructure.
+
+---
+
+## Research
+
+### Mutual intelligibility in language models
+
+I’m working on using embedding-space structure to study how models handle languages they were **never trained on**. Roughly:
+
+- Use multilingual encoders and FLORES+/other benchmarks  
+- Compare **distances and similarities** between languages in embedding space  
+- Study how this correlates with typological distance and zero-shot performance  
+
+The long-term goal is to better understand **which parts of a corpus actually matter** for cross-lingual transfer, especially for **low-resource African languages**.
+
+### Self-Imagine: visual and HTML-based reasoning
+
+In another line of work, I’m exploring how models can “self-generate” diagrams, images, or HTML layouts to help them reason better on math and symbolic tasks.
+
+This involves:
+
+- Generating images/HTML for datasets like GSM8K, SVAMP, ASDiv  
+- Evaluating **answer self-consistency** and **image/HTML quality**  
+- Analyzing which visual/structural representations help models the most  
+
+---
+
+## Selected projects & competitions
+
+- **Specializing LLMs for Telecom Networks (Zindi)**  
+  Built a retrieval-augmented QA system for telecom multiple-choice questions using **ColBERT-style dense retrieval** and domain documents. This work led to a Zindi competition win and an accompanying arXiv paper:  
+  [Zindi telecom RAG paper](https://arxiv.org/abs/2408.10808)
+
+- **Low-resource ASR and speech tech**  
+  Worked on Amharic and Swahili ASR in collaboration with WAVLab at CMU Pittsburgh, extending toolkits and exploring data collection strategies when labeled data is scarce.
+
+- **Generative AI: controllable music generation**  
+  Course project using **MusicGen + textual inversion** to learn token embeddings corresponding to musical “styles” and compose them at inference time for more controllable music generation.
+
+- **Crisis & clinical ML challenges**  
+  Participated in multiple Zindi/Kaggle challenges around crisis response, healthcare decision support, time-series forecasting, and geospatial ML.
+
+---
+
+## Publications & preprints
+
+*(This list is a placeholder — feel free to replace with your exact BibTeX/links later.)*
+
+### Zindi telecom RAG paper
+**T. Idris**, et al.  
+*Preprint, 2024*  
+A retrieval-augmented QA system using ColBERT-style dense retrieval to specialize LLMs for telecom multiple-choice questions.  
+[arXiv](https://arxiv.org/abs/2408.10808)
+
+### Other work
+Work in progress on:
+- Mutual intelligibility benchmarks for LLMs
+- Visual/HTML-based reasoning pipelines (“Self-Imagine”)
+
+---
+
+## Teaching & community
+
+- TA / mentor for students learning deep learning, NLP, and ML engineering
+- Active participant in online ML competitions and open-source ecosystems
+- Interested in building resources for **African students and researchers** who want to get into AI, especially for low-resource languages
+
+---
+
+## Contact
+
+The best way to reach me is by email or GitHub:
+
+- **Email:** youremail@example.com  
+- **GitHub:** [teddyk251](https://github.com/teddyk251)
+
+If you’re working on **NLP for low-resource languages**, **speech**, or **multimodal reasoning**, I’m always happy to chat.

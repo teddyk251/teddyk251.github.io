@@ -1,0 +1,12 @@
+---
+title: "Blog"
+listing:
+  contents: .
+  type: default
+  sort: "date desc"
+  categories: true
+---
+
+# Blog
+
+Welcome to my blog. Here you’ll find notes on research, engineering, and occasional life updates.
